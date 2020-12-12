@@ -1,0 +1,10 @@
+language: python
+python:
+- 3.7
+before_install:
+- pip install poetry
+install:
+- poetry install
+script:
+- poetry run python -m pytest tests
+- poetry run mypy *.py --ignore-missing-imports
