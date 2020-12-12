@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "stan-vb-extract"
+version = "0.1.0"
+description = "Extract pystan vb samples true to shape"
+authors = ["Sören Lennart Berg <soeren.berg@protonmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.19.4"
+pystan = "^2.19.1"
+
+[tool.poetry.dev-dependencies]
+yapf = "*"
+pytest = "*"
+pytest-sugar = "*"
+mypy = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
