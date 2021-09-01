@@ -8,3 +8,4 @@ install:
 script:
 - poetry run python -m pytest tests
 - poetry run mypy *.py --ignore-missing-imports
+- poetry run python -m pytest --cov-report xml --cov=. tests/
