@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/soerenberg/stan-vb-extract.svg?branch=main)](https://travis-ci.com/soerenberg/stan-vb-extract)
+[![codecov](https://codecov.io/gh/soerenberg/stan-vb-extract/branch/main/graph/badge.svg?token=GI0ENVKQW5)](https://codecov.io/gh/soerenberg/stan-vb-extract)
 
 # stan-vb-extract
 Extract pystan vb samples combined with respect to parameter shapes.
