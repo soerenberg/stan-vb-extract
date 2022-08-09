@@ -2,6 +2,9 @@
 [![Build Status](https://travis-ci.com/soerenberg/stan-vb-extract.svg?branch=main)](https://travis-ci.com/soerenberg/stan-vb-extract)
 [![codecov](https://codecov.io/gh/soerenberg/stan-vb-extract/branch/main/graph/badge.svg?token=GI0ENVKQW5)](https://codecov.io/gh/soerenberg/stan-vb-extract)
 
+**Note:** Pystan removed support for variational inference in version >3.0.
+Thus, this code is only applicable for Pystan 2.*.
+
 # stan-vb-extract
 Extract pystan vb samples combined with respect to parameter shapes.
 The functions provided will extract variational inference samples from pystan
